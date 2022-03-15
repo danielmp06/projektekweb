@@ -1,0 +1,137 @@
+
+body{
+    background-color: rgb(235, 235, 235);
+
+}
+.jumbotron{
+    background-image: url("../lapangan/image/srvbg.jpg");
+}
+
+hr{
+    margin-top:5px;
+    margin-bottom:5px;
+    height:1px;
+    width:500px;
+    border-top:1px solid rgb(112, 112, 112);
+}
+.navbar-nav a{
+    font-family:poppins;
+    font-size:18px;
+    text-transform:uppercase;
+    font-weight:bold;
+    
+}
+.navbar-light .navbar-brand{
+    color:#fff;
+    font-size:25px;
+    text-transform:uppercase;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#fff;
+}
+
+.navbar-nav{
+    text-align:center;
+
+}
+.nav-link{
+    padding:.2rem 1rem;
+}
+.navbar-sticky {
+    padding: 5px;
+}
+
+.navbar-sticky .navbar-nav a{
+color:#222;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+   
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}  
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.socialfooter{
+    background-color: rgb(230, 45, 45);
+    height: 150px;
+    position: fixed; 
+    padding: 10px 10px 0px 10px; 
+    bottom: 0; 
+    width: 100%; 
+    /* Height of the footer*/
+}
+  
+.reservasi-table {
+    border: solid 1px #82bbbb;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+.reservasi-table thead th {
+    background-color: #9fa3a3;
+    border: solid 1px #0a0f0f;
+    color: #040808;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;  
+}
+.reservasi-table tbody td {
+    border: solid 1px #070a0a;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
